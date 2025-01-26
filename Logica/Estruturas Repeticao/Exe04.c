@@ -9,7 +9,7 @@ int main() {
 	scanf("%f",&nota1);
 
 	while(nota1 < 0 || nota1 > 10){
-		printf(".......\nErro, as notas devem estar no intervalo (0 - 10)\n");
+		printf(".......\nErro, as notas devem estar no intervalo (0-10)\n");
 		printf(".......\nDigite a primeira nota\n");
 		scanf("%f",&nota1);
 	}
@@ -18,7 +18,7 @@ int main() {
 	scanf("%f",&nota2);
 
 	while(nota2 < 0 || nota2 > 10){
-		printf(".......\nErro, as notas devem estar no intervalo (0 - 10)\n");
+		printf(".......\nErro, as notas devem estar no intervalo (0-10)\n");
 		printf(".......\nDigite a segunda nota\n");
 		scanf("%f",&nota2);
 	}
