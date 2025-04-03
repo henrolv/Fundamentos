@@ -3,7 +3,7 @@
 
 int main() {
 
-	int tipoVeiculo = 0, diasAlugadoVeiculo;
+	int tipoVeiculo = 0, diasAlugadoVeiculo = 0;
 	double kmPercorridos = 0.0, precoAluguelVeiculo = 0.0, taxaPorKm = 0.0, pagamentoTotal = 0.0;
 
 	printf("(1) Carro Popular | R$ 90.00 / Dia\n(2) Carro Luxo | R$ 150.00 / Dia\n");
